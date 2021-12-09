@@ -1,0 +1,126 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    margin-top: 75px;
+    margin-left: 545px;
+    margin-bottom: 75px;
+    background-color: hsl(305, 82%, 40%);
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%) ;
+}
+
+.img{
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+    margin-top: 29px;
+}
+
+.texts{
+    margin-left: 24.2px;
+    margin-top: 29px;
+}
+
+.Icons{
+    justify-content: space-between;
+    display: flex;
+    width: 86%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 23px;
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    width: 90%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.num{
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    bottom: 4px;
+}
+
+.pedra{
+    padding-right: 2px;
+}
+
+.fotinha{
+    width: 32px;
+    height: 32px;
+    padding-right: 15px;
+}
+
+.creator{
+    width: 86%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.leg{
+    font-weight: 300;
+    font-size: 14px;
+    position:relative;
+    bottom: 10px;
+}
+
+.leg1{
+    color: hsl(215, 51%, 70%);
+}
+
+.leg2{
+    color: white;
+}
+
+.leg2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.time{
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    bottom: 3px;
+}
+
+h3:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.overlay:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.overlay{
+    background-color: rgba(0, 255, 247, 0.5);
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+    margin-top: 29px;
+    position: absolute;
+    top: 73px;
+    left: 575px;
+    opacity: 0;
+}
+
+.olho{
+    position: relative;
+    left: 130px;
+    top: 120px;
+}
